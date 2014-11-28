@@ -925,9 +925,3 @@ If you have personal support questions use [StackOverflow](http://stackoverflow.
 - Should be submitted from a feature/topic branch (not your master)
 - Should not include the minified **reveal.min.js** file
 
-
-## License
-
-MIT licensed
-
-Copyright (C) 2014 Hakim El Hattab, http://hakim.se

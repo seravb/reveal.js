@@ -363,14 +363,14 @@
 							class BirdFlock:
 							    def __init__(self):
 									self.dimension = 0
-							    def add (self, number = 1):
+							    def incrementar (self, number = 1):
 									self.dimension += 1
-							    def remove (self, number = 1):
+							    def eliminar (self, number = 1):
 							        self.dimension -= 1
-							    def population (self):
+							    def poblacion (self):
 									return self.dimension
 							    def __del__(self):
-							        pass
+							        print "Me han ejecutado! :("
 							```
 						</script>
 					</section>
@@ -402,6 +402,14 @@
 							        return self.edible
 							```
 						</script>
+					</section>
+					<section>
+						<h1>Herencia</h1>
+						<p>
+							En Python está permitida la herencia múltiple a diferencia de otros lenguajes. Si llamamos
+							a un método definido en las clases de las que hereda, hace una búsqueda en profundida para
+							decidir que método usará.
+						</p>
 					</section>
 				</section>
 
